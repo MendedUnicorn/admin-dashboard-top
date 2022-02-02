@@ -1,0 +1,83 @@
+body {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 20vh 80vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  grid-area: 1/2/2/3;
+  background: rgb(243, 128, 128);
+}
+
+aside {
+  grid-area: 1 / 1 / 3 / 2;
+  background-color: rgb(169, 169, 240);
+}
+
+main {
+  grid-area: 2 / 2 / 3 / 3;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+/*Main*/
+/*projects*/
+
+.projects {
+  grid-area: 1/1/3/2;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: 3rem repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  padding: 20px;
+}
+
+.projects > h2 {
+  font-size: 1.6rem;
+  grid-area: 1 /1 /2/-1;
+  align-self: end;
+  font-weight: bold;
+}
+/*Card*/
+.project-card {
+  padding: 40px 15px 40px 30px;
+  border-radius: 10px;
+  border-left: 10px solid #fb923c;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  display: grid;
+  grid-template-rows: auto auto;
+}
+.project-description {
+  color: grey;
+  font-size: 1.1rem;
+}
+.project-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.project-card:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.project-buttons {
+  grid-row: 3/4;
+  place-self: end;
+}
+.project-buttons img {
+  margin-left: 15px;
+}
+.project-buttons img:hover {
+  cursor: pointer;
+}
+
+/*announcements and trending*/
+.announcements {
+  background: grey;
+  grid-area: 1 / 2 / 2/3;
+}
+
+.trending {
+  background-color: crimson;
+  grid-area: 2/2/3/3;
+}
