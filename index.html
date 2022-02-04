@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap"
       rel="stylesheet"
     />
     <title>Admin Dashboard</title>
@@ -20,18 +20,26 @@
     <header>
       <div class="top-header">
         <label class="search-bar">
-          <span>icon</span>
+          <img src="assets/magnify.svg" alt="search icon" />
           <input type="search" />
         </label>
         <div class="user-info">
-          <span>alar icon</span>
-          <img src="" alt="" />
+          <img src="assets/bell-ring-outline.svg" alt="alerts icon" />
+          <img
+            class="profile-pic profile-small"
+            src="/assets/profile.webp"
+            alt="profile picture"
+          />
           <p>Morgan Oakley</p>
         </div>
       </div>
       <div class="bottom-header">
         <div class="user-intro">
-          <img src="" alt="" />
+          <img
+            class="profile-pic profile-medium"
+            src="/assets/profile.webp"
+            alt="profile picture"
+          />
           <p>Hi there,</p>
           <p class="username">Morgan Oakley (@morgan)</p>
         </div>
@@ -45,49 +53,57 @@
 
     <aside>
       <div class="logo">
+        <img class="logo" src="assets/view-dashboard.svg" alt="logo" />
         <h1>Dashboard</h1>
-        <img class="logo" src="/view-dashboard.svg" alt="logo" />
       </div>
-      <div class="dashboard-tab">
-        <h3>Home</h3>
-        <img class="icon" src="" alt="logo" />
+      <div class="navigation">
+        <div class="dashboard-tab">
+          <img class="icon" src="assets/home.svg" alt="icon" />
+          <h3>Home</h3>
+        </div>
+        <div class="dashboard-tab">
+          <img
+            class="icon"
+            src="assets/card-account-details-outline.svg"
+            alt="icon"
+          />
+          <h3>Profile</h3>
+        </div>
+        <div class="dashboard-tab">
+          <img class="icon" src="assets/message-reply.svg" alt="icon" />
+          <h3>Messages</h3>
+        </div>
+        <div class="dashboard-tab">
+          <img class="icon" src="assets/clock-time-three.svg" alt="icon" />
+          <h3>History</h3>
+        </div>
+        <div class="dashboard-tab">
+          <img class="icon" src="assets/file-multiple.svg" alt="icon" />
+          <h3>Tasks</h3>
+        </div>
+        <div class="dashboard-tab">
+          <img class="icon" src="assets/account-group.svg" alt="icon" />
+          <h3>Communities</h3>
+        </div>
       </div>
-      <div class="dashboard-tab">
-        <h3>Profile</h3>
-        <img class="icon" src="" alt="logo" />
-      </div>
-      <div class="dashboard-tab">
-        <h3>Messages</h3>
-        <img class="icon" src="" alt="logo" />
-      </div>
-      <div class="dashboard-tab">
-        <h3>History</h3>
-        <img class="icon" src="" alt="logo" />
-      </div>
-      <div class="dashboard-tab">
-        <h3>Tasks</h3>
-        <img class="icon" src="" alt="logo" />
-      </div>
-      <div class="dashboard-tab">
-        <h3>Communities</h3>
-        <img class="icon" src="" alt="logo" />
-      </div>
-      <div class="dashboard-tab">
-        <h3>Settings</h3>
-        <img class="icon" src="" alt="logo" />
-      </div>
-      <div class="dashboard-tab">
-        <h3>Support</h3>
-        <img class="icon" src="" alt="logo" />
-      </div>
-      <div class="dashboard-tab">
-        <h3>Privacy</h3>
-        <img class="icon" src="" alt="logo" />
+      <div class="misc">
+        <div class="dashboard-tab">
+          <img class="icon" src="assets/cog.svg" alt="icon" />
+          <h3>Settings</h3>
+        </div>
+        <div class="dashboard-tab">
+          <img class="icon" src="assets/help-box.svg" alt="icon" />
+          <h3>Support</h3>
+        </div>
+        <div class="dashboard-tab">
+          <img class="icon" src="assets/shield-check.svg" alt="icon" />
+          <h3>Privacy</h3>
+        </div>
       </div>
     </aside>
     <main>
       <div class="projects">
-        <h2>Your Projects</h2>
+        <h2 class="title">Your Projects</h2>
         <div class="project-card">
           <h4 class="project-title">Super Cool Project</h4>
           <p class="project-description">
@@ -96,9 +112,9 @@
             dolorum quod odit nesciunt dignissimos? Reiciendis, alias totam!
           </p>
           <div class="project-buttons">
-            <img src="/star-plus-outline.svg" alt="" />
-            <img src="/eye-plus-outline.svg" alt="" />
-            <img src="/source-fork.svg" alt="" />
+            <img src="assets/star-plus-outline.svg" alt="" />
+            <img src="assets/eye-plus-outline.svg" alt="" />
+            <img src="assets/source-fork.svg" alt="" />
           </div>
         </div>
         <div class="project-card">
@@ -108,9 +124,9 @@
             assumenda ad pariatur. Officiis, quae deserunt?
           </p>
           <div class="project-buttons">
-            <img src="/star-plus-outline.svg" alt="" />
-            <img src="/eye-plus-outline.svg" alt="" />
-            <img src="/source-fork.svg" alt="" />
+            <img src="assets/star-plus-outline.svg" alt="" />
+            <img src="assets/eye-plus-outline.svg" alt="" />
+            <img src="assets/source-fork.svg" alt="" />
           </div>
         </div>
         <div class="project-card">
@@ -122,9 +138,9 @@
             adipisci ratione eius!
           </p>
           <div class="project-buttons">
-            <img src="/star-plus-outline.svg" alt="" />
-            <img src="/eye-plus-outline.svg" alt="" />
-            <img src="/source-fork.svg" alt="" />
+            <img src="assets/star-plus-outline.svg" alt="" />
+            <img src="assets/eye-plus-outline.svg" alt="" />
+            <img src="assets/source-fork.svg" alt="" />
           </div>
         </div>
         <div class="project-card">
@@ -137,9 +153,9 @@
             animi earum dolorem non!
           </p>
           <div class="project-buttons">
-            <img src="/star-plus-outline.svg" alt="" />
-            <img src="/eye-plus-outline.svg" alt="" />
-            <img src="/source-fork.svg" alt="" />
+            <img src="assets/star-plus-outline.svg" alt="" />
+            <img src="assets/eye-plus-outline.svg" alt="" />
+            <img src="assets/source-fork.svg" alt="" />
           </div>
         </div>
         <div class="project-card">
@@ -151,9 +167,9 @@
             adipisci ratione eius!
           </p>
           <div class="project-buttons">
-            <img src="/star-plus-outline.svg" alt="" />
-            <img src="/eye-plus-outline.svg" alt="" />
-            <img src="/source-fork.svg" alt="" />
+            <img src="assets/star-plus-outline.svg" alt="" />
+            <img src="assets/eye-plus-outline.svg" alt="" />
+            <img src="assets/source-fork.svg" alt="" />
           </div>
         </div>
         <div class="project-card">
@@ -163,9 +179,9 @@
             esse?
           </p>
           <div class="project-buttons">
-            <img src="/star-plus-outline.svg" alt="" />
-            <img src="/eye-plus-outline.svg" alt="" />
-            <img src="/source-fork.svg" alt="" />
+            <img src="assets/star-plus-outline.svg" alt="" />
+            <img src="assets/eye-plus-outline.svg" alt="" />
+            <img src="assets/source-fork.svg" alt="" />
           </div>
         </div>
         <div class="project-card">
@@ -177,9 +193,9 @@
             adipisci ratione eius!
           </p>
           <div class="project-buttons">
-            <img src="/star-plus-outline.svg" alt="" />
-            <img src="/eye-plus-outline.svg" alt="" />
-            <img src="/source-fork.svg" alt="" />
+            <img src="assets/star-plus-outline.svg" alt="" />
+            <img src="assets/eye-plus-outline.svg" alt="" />
+            <img src="assets/source-fork.svg" alt="" />
           </div>
         </div>
         <div class="project-card">
@@ -190,14 +206,83 @@
             suscipit inventore.
           </p>
           <div class="project-buttons">
-            <img src="/star-plus-outline.svg" alt="" />
-            <img src="/eye-plus-outline.svg" alt="" />
-            <img src="/source-fork.svg" alt="" />
+            <img src="assets/star-plus-outline.svg" alt="" />
+            <img src="assets/eye-plus-outline.svg" alt="" />
+            <img src="assets/source-fork.svg" alt="" />
           </div>
         </div>
       </div>
-      <div class="announcements">ANNOUNCE</div>
-      <div class="trending">TRENDING</div>
+      <div class="announcements">
+        <h2 class="title">Accouncements</h2>
+        <div class="announcement-wrapper">
+          <div class="announcement">
+            <h5 class="announcement-title">Site Maintenance</h5>
+            <p class="announcement-text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Repellat, iure.
+            </p>
+          </div>
+          <div class="announcement">
+            <h5 class="announcement-title">Community Share Day</h5>
+            <p class="announcement-text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Veritatis cumque, harum excepturi fugit ut culpa minima omnis
+              neque enim explicabo.
+            </p>
+          </div>
+          <div class="announcement">
+            <h5 class="announcement-title">Updated Privacy Policy</h5>
+            <p class="announcement-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laudantium adipisci dolore eius vel atque culpa?
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="trending">
+        <h2 class="title">Trending</h2>
+        <div class="trending-wrapper">
+          <div class="user-trending">
+            <img
+              src="/assets/profile2.jpg"
+              alt="user avatar"
+              class="user-avatar profile-pic profile-small"
+            />
+            <p class="username">@tegan</p>
+            <p class="project-name">World Peace Builder</p>
+          </div>
+
+          <div class="user-trending">
+            <img
+              src="/assets/profile.webp"
+              alt="user avatar"
+              class="user-avatar profile-pic profile-small"
+            />
+            <p class="username">@morgan</p>
+            <p class="project-name">World Peace Builder</p>
+          </div>
+
+          <div class="user-trending">
+            <img
+              src="/assets/profile3.webp"
+              alt="user avatar"
+              class="user-avatar profile-pic profile-small"
+            />
+            <p class="username">@kendall</p>
+            <p class="project-name">World Peace Builder</p>
+          </div>
+
+          <div class="user-trending">
+            <img
+              src="/assets/profile4.png"
+              alt="user avatar"
+              class="user-avatar profile-pic profile-small"
+            />
+            <p class="username">@alex</p>
+            <p class="project-name">World Peace Builder</p>
+          </div>
+        </div>
+      </div>
     </main>
   </body>
 </html>
